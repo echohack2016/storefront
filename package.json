@@ -1,0 +1,24 @@
+{
+  "name": "echohack2016-storefront",
+  "version": "0.1.0r",
+  "description": "Echo Hack 2016 storefront",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echohack2016/storefront"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
