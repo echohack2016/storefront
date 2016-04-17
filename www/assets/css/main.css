@@ -1639,7 +1639,7 @@
 /* Type */
 
 	body {
-		color: #999999;
+		color: #6c6c6c;
 	}
 
 	html, input, select, textarea {
@@ -1699,7 +1699,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 1em 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1729,8 +1729,8 @@
 	}
 
 	h3 {
-		font-size: 1.5em;
-		line-height: 1.5em;
+		font-size: 1.8em;
+		line-height: 1.8em;
 	}
 
 	h4 {
@@ -1849,7 +1849,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #828282;
+		color: #6c6c6c;
 	}
 
 	blockquote {
@@ -2234,6 +2234,7 @@
 		color: #e6e6e6;
 	}
 
+
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
 		color: #999999;
@@ -2365,13 +2366,14 @@
 			width: 13em;
 		}
 
-			.image.phone img {
+	.image.phone img {
 				border-radius: 0;
-				display: block;
+				height:100%;
+				display: inline;
 				position: relative;
 				width: 100%;
 			}
-
+/*
 			.image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
 				border: solid 2px rgba(255, 255, 255, 0.25);
@@ -2387,7 +2389,7 @@
 					left: 50%;
 				}
 
-				.image.phone .inner:before {
+					.image.phone .inner:before {
 					top: -1.375em;
 					margin-left: -1em;
 					width: 2em;
@@ -2396,7 +2398,7 @@
 					background: rgba(255, 255, 255, 0.25);
 				}
 
-				.image.phone .inner:after {
+		.image.phone .inner:after {
 					bottom: -2.75em;
 					margin-left: -1em;
 					width: 2em;
@@ -2415,7 +2417,7 @@
 				border-bottom: 0;
 			}
 
-			.image.phone:after {
+		.image.phone:after {
 				height: 3.5em;
 				border-radius: 0 0 1em 1em;
 				border-top: 0;
@@ -2429,7 +2431,7 @@
 			box-shadow: none;
 		}
 
-			.image.phone .inner, .image.phone:before, .image.phone:after {
+		.image.phone .inner, .image.phone:before, .image.phone:after {
 				border-color: #e6e6e6;
 			}
 
@@ -2440,9 +2442,12 @@
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
 			}
-
+*/
 /* List */
-
+header.major h2{
+	font-size: 1.25em;
+	color: #000000;
+}
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -2743,6 +2748,7 @@
 			margin: 2em auto 0 auto;
 		}
 
+
 		@media screen and (max-width: 736px) {
 
 			header.major {
@@ -2761,7 +2767,7 @@
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+			display: flex;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -2771,14 +2777,14 @@
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
+
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+			/*border-radius: 100%;*/
 				width: 100%;
 			}
 
@@ -3082,7 +3088,7 @@
 				}
 
 					.wrapper.style1 .image.phone .inner, .wrapper.style1 .image.phone:before, .wrapper.style1 .image.phone:after {
-						border-color: rgba(255, 255, 255, 0.25);
+						/*border-color: rgba(255, 255, 255, 0.25);*/
 					}
 
 					.wrapper.style1 .image.phone .inner:before {
@@ -3153,8 +3159,9 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #fbfbfb;
-			color: #999999;
+		background-color: #fbfbfb;
+
+
 		}
 
 			.wrapper.style2 input[type="submit"],
@@ -3210,7 +3217,7 @@
 					}
 
 			.wrapper.style2 label {
-				color: #828282;
+				color: #000000;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -3346,11 +3353,13 @@
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #828282;
+				color: #404040;
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #828282;
+				color: #6c6c6c;
+
+
 			}
 
 			.wrapper.style2 blockquote {
